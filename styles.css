@@ -5,12 +5,12 @@ h1 {
     font-family:'Courier New', Courier, monospace;
 }
 p {
-    font-size: 50px;
-    color:white;
+    font-size: 15px;
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-    background-color: grey;
+    background-color: darkgrey;
 }
 h2 {
     font-size:125px;
@@ -18,22 +18,24 @@ h2 {
     font-family:'Courier New', Courier, monospace;
 }
 
-/*Class styling*/
+/*class styling*/
 .website-footer {
-    background-color:blue;
+    background-color:grey;
     border-color: black;
     align-items: center;
 }
-
 .footer-text {
-    font-size:50px;
-    font-family:'Courier New', Courier, monospace;
-    color:bisque;
+  font-size: 50px;
+  font-weight:bold;
+  color:blue  
+}
+.logo {
+  height:35px;
+  
 }
 .small-image {
-    width:100px;
-    height:75px;
-    box-shadow: 0cap;
+  height: 200px;
+  
 }
 
 /*About.html*/
@@ -80,4 +82,8 @@ h2 {
 }
 .display-4 {
     color:white;
+}
+/*id styling*/
+#hero-subtext{
+  color:white;
 }
